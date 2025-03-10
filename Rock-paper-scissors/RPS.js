@@ -41,7 +41,7 @@ let computerScore = 0;
 // show score on screen when player is inactive
 let scoreResult = document.createElement("p");
  scoreResult.style.fontSize = "1.5rem"
-scoreResult.innerText = `Player Score: ${playerScore} | Computer Score: ${computerScore}`;
+scoreResult.innerText = `Player Score: ${playerScore} | Comp Score: ${computerScore}`;
 
 //it is appending the result
 let showResult = document.querySelector("#result");
